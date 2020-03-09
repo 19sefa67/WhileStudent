@@ -12,17 +12,7 @@ int recursiveFactorial(int a){
     if(a==1)
         return 1;
     else
-        return a * recursiveFactorial(a-1);
-}
-
-int BinarySearch(int a, int lenghtOfArray){ // (Number you search for, Lenght of array you want to create)
-    int array[lenghtOfArray];
-    counter ++;
-    createArray(array, lenghtOfArray); //Creating random Array with randomArray function
-
-    if(a == array[lenghtOfArray - 1]) {
-        std::cout << "Founded in " << counter << ". attempt" << std::endl;
-        return 11;
+        return a * re
     }
     else if(lenghtOfArray == 0) {
         std::cout << "Sorry cant found " << std::endl;
