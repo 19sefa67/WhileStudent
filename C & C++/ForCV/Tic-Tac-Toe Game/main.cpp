@@ -63,6 +63,7 @@ int main() {
         std::cout<<"Please chose your place : ";
         std::cin>>a;
     }
-    // To prove i can add 1-9 limit to while loop
+    // To prove i can add 1-9 limit to while loop 
     // I can add != X && != O in switch case
+    // Testing
 }
